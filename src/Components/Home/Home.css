@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+}
+.first-container{
+    height: 650px;
+    width: 100%;
+    background: url("../Image/src.png") center center;
+    border: 1px solid black;
+   background-size: cover; 
+
+}
+.first-container h1{
+    margin: 15% 40% ;
+}
